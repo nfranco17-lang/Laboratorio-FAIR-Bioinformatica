@@ -2,15 +2,20 @@
 
 ## Integrantes
 * Nicol Valentina Franco Iguaran
+* Julián Rodríguez
 * Santiago Bejarano
-* Julian Rodriguez Ruiz
 
 ## Descripción del Repositorio
-Este repositorio organiza y estructura datos bioinformáticos bajo los **Principios FAIR** (Findable, Accessible, Interoperable, Reusable), superando los problemas de desorden y falta de metadatos.
+Este repositorio organiza y estructura datos bioinformáticos de los tres integrantes del equipo bajo los **Principios FAIR** (Findable, Accessible, Interoperable, Reusable), garantizando trazabilidad, metadatos claros y orden en la gestión de datos científicos.
 
-## Estructura
-* `01_datos_crudos/`: Contiene el archivo FASTA oficial y limpio obtenido de NCBI para el gen *mecA* de *Staphylococcus aureus* (Accession: `PP848319.1`).
-* `02_scripts/`: Contiene el script en Python implementado en Google Colab para la traducción *in silico* de la secuencia de ADN a proteína.
+## Estructura de Datos Crudos (`01_datos_crudos/`)
+El repositorio contiene las secuencias oficiales de NCBI de cada integrante:
+* **Nicol Franco:** Gen *mecA* / PBP2a (*Staphylococcus aureus*) - Accession: `PP848319.1`
+* **Julián Rodríguez:** Gen *lukS-PV* / Panton-Valentine leukocidin (*Staphylococcus aureus*) - Accession: `FJ821793.1`
+* **Santiago Bejarano:** Genoma genómico Contig / WGS (*Staphylococcus aureus*) - Accession: `NZ_PEP01000019.1`
+
+## Scripts de Análisis (`02_scripts/`)
+* `traduccion.py`: Script en Python utilizado para la traducción *in silico* de las secuencias a partir del codón de inicio ATG.
 
 ## Instrucciones de Uso
-Para ejecutar el algoritmo de traducción, abra el archivo ubicado en `02_scripts/traduccion.py` dentro de un entorno de Python o Google Colab e ingrese la secuencia deseada en la variable `mi_secuencia`.
+Para ejecutar los scripts o consultar los datos primarios, clone este repositorio y verifique las carpetas correspondientes a cada integrante.
